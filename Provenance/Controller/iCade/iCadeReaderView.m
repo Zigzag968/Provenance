@@ -23,9 +23,8 @@
 #import "iCadeReaderView.h"
 #import <UIKit/UIKit.h>
 
-static const char *ON_STATES  = "wdxayhujikol"; //wdxazhujikol for German keyboard layout
-static const char *OFF_STATES = "eczqtrfnmpgv"; //ecyqtrfnmpgv for German keyboard layout
-
+static const char *ON_STATES  = "zdxqohulijyk"; //wdxazhujikol for German keyboard layout
+static const char *OFF_STATES = "ecwagrfv,ntp"; //ecyqtrfnmpgv for German keyboard layout
 @interface iCadeReaderView() <UIKeyInput>
 
 - (void)willResignActive;
